@@ -1,27 +1,17 @@
 var arr = [];
-var count =  1;
+var count = 1;
 
-function crix(){
-    arr.push(count);
+function fizzBuzz(){
 
-    if (count % 3 == 0 && count % 5 == 0 ){
-        arr.push("fizzBuzz")
+    if(count % 3 == 0){
+        arr.push("Fizz");
     }
-    else if(count % 3 == 0){
-        arr.push("fizz")
-    }
-    else if (count % 5 ==0){
-        arr.push("buzz")
+    else{
+        arr.push(count);
     }
     
-    
-    count++;
+
+    count++
+
     console.log(arr);
-
-    
-    }
-
-for(i=0; i<15;i++){
-        crix()
 }
-

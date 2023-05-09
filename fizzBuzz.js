@@ -8,7 +8,7 @@ function crix(){
         arr.push("fizz")
     }
     else if (count % 5 ==0){
-        arr.pusj("buzz")
+        arr.push("buzz")
     }
     
     count++;

@@ -17,6 +17,11 @@ function crix(){
     
     count++;
     console.log(arr);
-}
 
+    
+    }
+
+for(i=0; i<15;i++){
+        crix()
+}
 
